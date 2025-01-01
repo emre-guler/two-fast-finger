@@ -1,8 +1,75 @@
-# twoFastFinger
-Telefon klavyesinde ne kadar hızlı yazabildiğini ölçen bir uygulama. (Ten fast fingers mobil hali)
+# Two Fast Finger
 
-![firstPage](https://user-images.githubusercontent.com/39224401/79390748-f3b8d080-7f78-11ea-89ba-ea7649e657fb.png)
-![secondPage](https://user-images.githubusercontent.com/39224401/79390750-f4516700-7f78-11ea-8b30-496fcf8c2132.png)
-![thirdPage](https://user-images.githubusercontent.com/39224401/79390751-f4e9fd80-7f78-11ea-9e2e-a36a106c1919.png)
-![fourthPage](https://user-images.githubusercontent.com/39224401/79390753-f5829400-7f78-11ea-8aa9-ecaa7c2656c5.png)
-![secondPage2](https://user-images.githubusercontent.com/39224401/79390754-f5829400-7f78-11ea-8c36-d665297936f2.png)
+A React Native mobile application designed to test and improve your typing speed and accuracy.
+
+## Features
+
+- Modern and intuitive user interface
+- Real-time typing speed measurement
+- Progress tracking
+- Beautiful gradient UI elements
+- Cross-platform support (iOS and Android)
+
+## Prerequisites
+
+- Node.js (v12 or higher)
+- npm or yarn
+- React Native CLI
+- Xcode (for iOS development)
+- Android Studio (for Android development)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+cd two-fast-finger
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Install iOS dependencies:
+```bash
+cd ios
+pod install
+cd ..
+```
+
+## Running the App
+
+### iOS
+```bash
+npm run ios
+# or
+yarn ios
+```
+
+### Android
+```bash
+npm run android
+# or
+yarn android
+```
+
+## Tech Stack
+
+- React Native
+- React Navigation
+- React Native Elements
+- React Native Linear Gradient
+- React Native Vector Icons
+
+## Development
+
+- `npm start` or `yarn start` to start the Metro bundler
+- `npm test` or `yarn test` to run tests
+- `npm run lint` or `yarn lint` to run the linter
+
+## Version
+
+Current version: 0.0.1
